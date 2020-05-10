@@ -1,0 +1,51 @@
+img{
+    margin-top: 10px;
+}
+
+p{
+    margin: 5px;
+}
+
+strong{
+    font-size: 20px;
+}
+
+#repo-list{
+    width: 100%;
+}
+
+.card__quarto{
+    border-radius: 0.25rem;
+    background-color:#fff;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0.5rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0,0.18);
+}
+
+.grid__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card__quarto__img{
+    background-color: #cccccc;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 280px;
+    height: 200px;
+}
+
+.tipo{
+    align-self: flex-start;
+}
+
+.price{
+    align-self: flex-start;
+}
